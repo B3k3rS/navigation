@@ -58,6 +58,7 @@ ul {
     position: absolute;
 } */
 
+/* 
 .nav-item:hover > ul{
     display: block;
     position: absolute;
@@ -70,7 +71,9 @@ ul {
     position: absolute;
     top: -2px;
     right: -153px;
-}
+} */
+
+
 
 .drop-item ul {
     display: none;
@@ -92,4 +95,18 @@ ul {
 
 .drop-menu {
     display: none;
+}
+
+.open-item > ul{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: -1px;
+}
+
+.open-drop > ul {
+    display: block;
+    position: absolute;
+    top: -2px;
+    right: -153px;
 }
